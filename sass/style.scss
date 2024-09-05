@@ -1,0 +1,359 @@
+$primary-color: rgb(14, 193, 47) !important;
+$secondary-color: rgb(133, 141, 144) !important;
+$white: white !important;
+
+a {
+  color: $primary-color;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 130px;
+  height: 40px;
+}
+
+.btn-primary {
+  color: $white;
+  background-color: $primary-color;
+  border: 1px solid $white;
+
+  &:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    background: transparent !important;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+}
+
+.btn-outline-primary {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    color: $white;
+    background-color: $primary-color;
+    border: 1px solid $white;
+  }
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.content-title {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  padding-bottom: 1rem !important;
+  border-bottom: 2px solid $primary-color;
+}
+
+.content {
+  text-align: justify !important;
+  padding: 1rem !important;
+}
+
+img {
+  border-radius: 5px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.navbar {
+  background: white;
+  .navbar-nav {
+    a {
+      color: $primary-color;
+      font-weight: 500;
+    }
+  }
+}
+
+.hero {
+  min-height: 100vh;
+
+  figure {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    margin: 0 !important;
+
+    .fixed-wrap {
+      clip: rect(0, auto, auto, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      #fixed {
+        background-image: url("../img/background/hero_bg.jpg");
+        filter: brightness(50%);
+        position: fixed;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
+  }
+
+  .s-logos {
+    height: 20%;
+    .row {
+      img {
+        width: 100%;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}
+
+.two-column {
+  .content-title {
+    color: $secondary-color;
+  }
+
+  .content {
+    background: #000;
+    box-shadow: 0rem 3rem 2rem -2rem #000;
+  }
+}
+
+.services {
+  height: 80vh;
+
+  figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+
+    .fixed-wrap {
+      clip: rect(0, auto, auto, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      #fixed {
+        background-image: url("../img/background/services_bg.jpg");
+        filter: brightness(50%);
+        position: fixed;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
+
+    .card-wrap {
+      background: rgba(0, 0, 0, 0.5);
+      transition: all 0.3s ease;
+      .card {
+        background: rgba(0, 0, 0, 0.5);
+        height: 15rem;
+
+        .card-body {
+          color: white;
+        }
+
+        &:hover {
+          transition: all 0.3s ease;
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.banner {
+  p {
+    padding: 5rem;
+  }
+}
+
+.single-column {
+  height: 80vh;
+
+  figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+
+    .fixed-wrap {
+      clip: rect(0, auto, auto, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      #fixed {
+        background-image: url("../img/background/SD_bg.jpg");
+        filter: brightness(50%);
+        position: fixed;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
+  }
+
+  .content {
+    background: #000;
+    box-shadow: 0rem 3rem 2rem -2rem #000;
+  }
+}
+
+.process {
+  background: #eee;
+  padding: 5rem 0;
+
+  .container {
+    .content-title {
+      font-size: 10rem;
+      color: $primary-color;
+    }
+
+    .process-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .number {
+        height: 100px;
+        width: 100px;
+        font-size: 5rem;
+        color: white;
+        background-color: $primary-color;
+        border-radius: 50%;
+        margin-bottom: 1.25rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .procedure {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: $secondary-color;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.two-row {
+  .title-wrap {
+    padding: 0 1rem;
+  }
+}
+
+.dark-banner {
+  background-color: #000;
+  p {
+    padding: 3rem;
+  }
+}
+
+.mail {
+  height: 100vh;
+
+  figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+
+    .fixed-wrap {
+      clip: rect(0, auto, auto, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      #fixed {
+        background-image: url("../img/background/mail_bg.jpg");
+        filter: brightness(50%);
+        position: fixed;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
+
+    .form-wrap {
+      form {
+        padding: 1.25rem;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0rem 3rem 2rem -2rem #000;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    height: 150vh !important;
+  }
+  .card {
+    margin-bottom: 1rem;
+    height: 10rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-wrap {
+    padding: 1.25rem 0;
+  }
+
+  .mail {
+    height: 150vh;
+  }
+
+  .two-row {
+    margin-bottom: 3rem;
+  }
+
+  .services {
+    height: 170vh !important;
+  }
+  .card {
+    margin-bottom: 1rem;
+    height: 13rem !important;
+  }
+}

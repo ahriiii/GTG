@@ -6,37 +6,435 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="sass/style.css">
     <title>GTG Plumbing Services</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo/GTG_logo.png" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav fs-3">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Mail Us</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!-- Hero Section -->
 
+    <section class="hero">
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+            </div>
+            <div class="container h-100 d-flex flex-column justify-content-center align-items-center sticky-top">
+                <div class="heading text-white text-center">
+                    <h1 class="fw-bold display-3">
+                        Welcome to GTG Plumbing Services - Your Trusted Plumbing Experts
+                    </h1>
+                    <p class="fs-4">At GTG Plumbing Services, we provide reliable and professional
+                        plumbing services
+                        for residential and
+                        commercial properties. Our team of experienced plumbers is dedicated to ensuring your
+                        plumbing
+                        systems are
+                        functioning properly.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="" class="btn btn-primary">Contact Us</a>
+                        <a href="" class="btn btn-outline-primary">Mail Us</a>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <div class="container">
+            <div class="s-logos">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <p class="display-2">G7</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <p class="display-2">G7</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <p class="display-2">G7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Two Column Section -->
+
+    <div class="two-column mb-5">
+        <div class="container">
+            <div class="title mb-5">
+                <h2 class="fw-bold text-center display-5 text-primary col-12">
+                    Plumber in Metro Manila
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/column/col_1.jpg" class="img-fluid" alt="plumbing_picture">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="title-wrap">
+                        <h2 class="content-title by-sm-3">
+                            The Local Plumbing Experts
+                        </h2>
+                    </div>
+
+                    <div class="content">
+                        <p class="text-white m-2">GTG Plumbing services has got you covered for all of your plumbing
+                            needs!
+                            We’re the leading
+                            plumbing
+                            service in Metro Manila, ready to keep your pipes and plumbing appliances working all
+                            year. You can count on us to be there quickly in an emergency or recommend ways to improve
+                            plumbing performance and save money. We have years of experience working to fix every type
+                            of problem you can imagine, and our team is excited to hear how we can help you with custom,
+                            high-quality pipe repair or new plumbing installations. We’re a local company serving our
+                            community with excellent service and affordable prices.</p>
+                        <p class="text-white m-2">Reach us today at <a href="tel:09501379368">0950-137-9368</a> to
+                            schedule an appointment for any of
+                            our
+                            plumbing services!</p>
+
+                        <div class="img-wrap w-100 d-flex align-items-center justify-content-space-around">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/certificate/DTI.jpg" alt="DTI_certificate"
+                                        style="width: 100px; height: 100px;">
+                                </div>
+                                <div class="col"><img src="img/certificate/BIR_certificate.jfif"
+                                        style="width: 100px; height: 100px;" alt="BIR_certificate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="services" id="services">
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+                <div class="container h-100 mt-5 d-flex flex-column justify-content-start sticky-top">
+                    <div class="title-wrap w-100 mb-5">
+                        <h2 class="content-title text-white">
+                            Quality Services We Provide
+                        </h2>
+                    </div>
+
+                    <div class="card-wrap p-3">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">
+                                            Sewer & Drain Cleaning
+                                        </h3>
+                                        <p class="card-text">
+                                            We clean drains to clear room in your pipes, so water and waste move faster.
+                                            Make things easy in the kitchen and bathroom with clean drains that work!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">
+                                            Leak Detection
+                                        </h3>
+                                        <p class="card-text">
+                                            Our team provides professional leak detection with video inspections and
+                                            other tools to find leaks wherever they are. You get better protection and
+                                            fast repairs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">
+                                            Water Heater Replacement
+                                        </h3>
+                                        <p class="card-text">
+                                            Get more hot water faster with a modern water heater built to last. Ask us
+                                            about our great deals on the latest models and installation services.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">
+                                            Hydro Jetting
+                                        </h3>
+                                        <p class="card-text">
+                                            Hydro jetting will clear even the most stubborn clogs in your pipes. Call us
+                                            if you’re dealing with frequent toilet or drain issues.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <!-- Banner -->
+    <div class="banner text-center">
+        <p class="text-secondary fw-bold fs-2">Call GTG Plumbing Services at <a href="tel:09501379368">0950-137-9368</a>
+            to Get Started Today!</p>
+    </div>
+
+    <!-- Single Column Section -->
+    <section class="single-column">
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+            </div>
+            <div class="container h-100 sticky-top d-flex align-items-center justify-content-start">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title-wrap mb-2">
+                            <h2 class="content-title text-white">
+                                Quality Residential Plumbing Repair & Installation
+                            </h2>
+                        </div>
+
+                        <div class="content">
+                            <p class="text-white">
+                                At GTG Plumbing Services, we work closely with homeowners in Metro Manila to maintain
+                                plumbing
+                                systems. We can add years to your heaters, fix leaks fast, and help you decide when it’s
+                                finally
+                                time for an upgrade. Our team will be there on time to handle everything you need from
+                                start to
+                                finish, and to us, no job is complete unless you’re happy with the results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <!-- Process -->
+
+    <div class="process">
+        <div class="container">
+            <div class="title-wrap mb-5">
+                <h2 class="content-title text-center">
+                    Our Process
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="process-body">
+                        <div class="number">1</div>
+                        <p class="procedure">
+                            CONTACT US AND SCHEDULE YOUR SERVICE.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="process-body">
+                        <div class="number">2</div>
+                        <p class="procedure">
+                            WE EVALUATE AND TAKE CARE OF YOUR ISSUE.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="process-body">
+                        <div class="number">3</div>
+                        <p class="procedure">
+                            ENJOY THE CONVENIENCE OF A FULLY FUNCTIONAL PLUMBING SYSTEM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="two-row">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <img src="img/column/col_2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="h-100 d-flex flex-column justify-content-center">
+                        <div class="title-wrap">
+                            <h2 class="content-title text-primary">
+                                Focused on Quality
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <p class="fs-5">We know the only thing that matters is getting you the plumbing performance
+                                you
+                                expect at the right price. Our technicians have spent years in the community, so we know
+                                how
+                                to manage common issues quickly to avoid long downtimes and frustrating water damage.
+                            </p>
+                            <p class="fs-5">With GTG Plumbing Services, you get the best customer experience from local
+                                plumbers who
+                                care. Discover the difference we can make in your pipes, toilets, water heater, or
+                                garbage
+                                disposal, and make your plumbing problems disappear. We go the extra mile to take care
+                                of
+                                each of our customers. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="h-100 d-flex flex-column justify-content-center">
+                        <div class="title-wrap">
+                            <h2 class="content-title text-primary">
+                                Expert Plumbing Solutions
+                            </h2>
+                        </div>
+                        <div class="content">
+                            <p class="fs-5">Whether you need plumbing for your new house or it’s time to upgrade your
+                                faucets, we have a range of solutions to fit your timeline and budget. From the day we
+                                opened for business, we knew we wanted to be the best and a name people trust. It pushes
+                                us
+                                daily to deliver for homeowners in Metro Manila. Find out how we can save you money and
+                                time with expert technicians who know how to install the best appliances and piping
+                                anywhere. </p>
+                            <p class="fs-5">Book an appointment or ask questions now by calling <a
+                                    href="tel:09501379368">0950-137-9368</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/column/col_3.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="dark-banner text-center">
+        <p class="text-white fs-3">IF YOU WANT QUALITY SERVICE AND PROFESSIONALISM CALL US TODAY AT
+            <a href="tel:09501379368">0950-137-9368</a>
+        </p>
+    </div>
+
+    <!-- Review Widgets-->
+    <div class="container">
+        <div class="elfsight-app-f9aa96ad-066c-416d-a802-1a1bbdb05def" data-elfsight-app-lazy></div>
+    </div>
+
+    <!-- Mail Section -->
+
+    <section class="mail">
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+                <div class="container h-100 sticky-top">
+                    <div class="row h-100">
+                        <div class="col-lg-6">
+                            <div class="info-wrap h-100 d-flex flex-column align-items-center justify-content-center">
+                                <img src="img/logo/GTG_with_bg.png" alt="logo">
+                                <div class="information d-flex flex-column text-white text-center">
+                                    <span class="bn-num fs-5">Business No. 6285516</span>
+                                    <span class="contact-num fs-3"><a href="tel:09501379368">0950-137-9368</a></span>
+                                    <span class="address fs-6"> Metro Manila Philippines</span>
+                                    <span class="schedule fs-6">24-Hours Plumbing Service Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-wrap h-100 d-flex flex-column align-items-center justify-content-center">
+                                <form onsubmit="sendMail(); reset(); return false" class="form">
+                                    <div class="row g-3 text-white">
+                                        <div class="col-md-6">
+                                            <label for="your-name" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="your-name" name="fullName"
+                                                required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="your-surname" class="form-label">Phone No.</label>
+                                            <input type="text" class="form-control" id="your-surname" name="phone"
+                                                required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="your-email" class="form-label">Your Email</label>
+                                            <input type="email" class="form-control" id="your-email" name="your-email"
+                                                required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="your-subject" class="form-label">Your Subject</label>
+                                            <input type="text" class="form-control" id="your-subject"
+                                                name="your-subject">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="your-message" class="form-label">Your Message</label>
+                                            <textarea class="form-control" id="your-message" name="your-message"
+                                                rows="5" required></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <button type="submit" class="btn btn-primary w-100">Send</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-2">
+        <p class="align-center">Made by: Ahrii</p>
+    </footer>
+
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>

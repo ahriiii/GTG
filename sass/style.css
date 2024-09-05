@@ -1,0 +1,308 @@
+a {
+  color: rgb(14, 193, 47) !important;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 130px;
+  height: 40px;
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: rgb(14, 193, 47) !important;
+  border: 1px solid white !important;
+}
+.btn-primary:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  background: transparent !important;
+  color: rgb(14, 193, 47) !important;
+  border: 1px solid rgb(14, 193, 47) !important;
+}
+
+.btn-outline-primary {
+  color: rgb(14, 193, 47) !important;
+  border: 1px solid rgb(14, 193, 47) !important;
+}
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: rgb(14, 193, 47) !important;
+  border: 1px solid white !important;
+}
+
+.text-primary {
+  color: rgb(14, 193, 47) !important;
+}
+
+.content-title {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  padding-bottom: 1rem !important;
+  border-bottom: 2px solid rgb(14, 193, 47) !important;
+}
+
+.content {
+  text-align: justify !important;
+  padding: 1rem !important;
+}
+
+img {
+  border-radius: 5px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.navbar {
+  background: white;
+}
+.navbar .navbar-nav a {
+  color: rgb(14, 193, 47) !important;
+  font-weight: 500;
+}
+
+.hero {
+  min-height: 100vh;
+}
+.hero figure {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin: 0 !important;
+}
+.hero figure .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero figure .fixed-wrap #fixed {
+  background-image: url("../img/background/hero_bg.jpg");
+  filter: brightness(50%);
+  position: fixed;
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0);
+  will-change: transform;
+}
+.hero .s-logos {
+  height: 20%;
+}
+.hero .s-logos .row img {
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.two-column .content-title {
+  color: rgb(133, 141, 144) !important;
+}
+.two-column .content {
+  background: #000;
+  box-shadow: 0rem 3rem 2rem -2rem #000;
+}
+
+.services {
+  height: 80vh;
+}
+.services figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 !important;
+}
+.services figure .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.services figure .fixed-wrap #fixed {
+  background-image: url("../img/background/services_bg.jpg");
+  filter: brightness(50%);
+  position: fixed;
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0);
+  will-change: transform;
+}
+.services figure .card-wrap {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+.services figure .card-wrap .card {
+  background: rgba(0, 0, 0, 0.5);
+  height: 15rem;
+}
+.services figure .card-wrap .card .card-body {
+  color: white;
+}
+.services figure .card-wrap .card:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(14, 193, 47) !important;
+}
+
+.banner p {
+  padding: 5rem;
+}
+
+.single-column {
+  height: 80vh;
+}
+.single-column figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 !important;
+}
+.single-column figure .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.single-column figure .fixed-wrap #fixed {
+  background-image: url("../img/background/SD_bg.jpg");
+  filter: brightness(50%);
+  position: fixed;
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0);
+  will-change: transform;
+}
+.single-column .content {
+  background: #000;
+  box-shadow: 0rem 3rem 2rem -2rem #000;
+}
+
+.process {
+  background: #eee;
+  padding: 5rem 0;
+}
+.process .container .content-title {
+  font-size: 10rem;
+  color: rgb(14, 193, 47) !important;
+}
+.process .container .process-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.process .container .process-body .number {
+  height: 100px;
+  width: 100px;
+  font-size: 5rem;
+  color: white;
+  background-color: rgb(14, 193, 47) !important;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.process .container .process-body .procedure {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgb(133, 141, 144) !important;
+  text-align: center;
+}
+
+.two-row .title-wrap {
+  padding: 0 1rem;
+}
+
+.dark-banner {
+  background-color: #000;
+}
+.dark-banner p {
+  padding: 3rem;
+}
+
+.mail {
+  height: 100vh;
+}
+.mail figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 !important;
+}
+.mail figure .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mail figure .fixed-wrap #fixed {
+  background-image: url("../img/background/mail_bg.jpg");
+  filter: brightness(50%);
+  position: fixed;
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0);
+  will-change: transform;
+}
+.mail figure .form-wrap form {
+  padding: 1.25rem;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0rem 3rem 2rem -2rem #000;
+}
+
+@media (max-width: 992px) {
+  .services {
+    height: 150vh !important;
+  }
+  .card {
+    margin-bottom: 1rem;
+    height: 10rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .info-wrap {
+    padding: 1.25rem 0;
+  }
+  .mail {
+    height: 150vh;
+  }
+  .two-row {
+    margin-bottom: 3rem;
+  }
+  .services {
+    height: 170vh !important;
+  }
+  .card {
+    margin-bottom: 1rem;
+    height: 13rem !important;
+  }
+}/*# sourceMappingURL=style.css.map */
