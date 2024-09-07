@@ -1,3 +1,29 @@
+#btn-back-to-top {
+  position: fixed;
+  height: 50px !important;
+  width: 50px !important;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: none;
+  z-index: 10000;
+}
+#btn-back-to-top .icon-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-back-to-top .icon-wrap .fas {
+  font-size: 20px;
+}
+#btn-back-to-top:hover {
+  color: white !important;
+  background-color: rgb(14, 193, 47) !important;
+  border: 1px solid white !important;
+}
+
 a {
   color: rgb(14, 193, 47) !important;
 }
@@ -5,7 +31,7 @@ a {
 .btn {
   font-size: 16px;
   border-radius: 5px;
-  min-width: 130px;
+  width: 130px;
   height: 40px;
 }
 
@@ -273,6 +299,23 @@ img {
   transform: translateZ(0);
   will-change: transform;
 }
+.mail figure .mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+.mail figure .mapouter .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+}
+.mail figure .mapouter .gmap_canvas .gmap_iframe {
+  width: 100% !important;
+  height: 400px !important;
+}
 .mail figure .form-wrap form {
   padding: 1.25rem;
   background: rgba(0, 0, 0, 0.5);
@@ -293,7 +336,7 @@ img {
     padding: 1.25rem 0;
   }
   .mail {
-    height: 150vh;
+    height: 210vh;
   }
   .two-row {
     margin-bottom: 3rem;
@@ -304,5 +347,8 @@ img {
   .card {
     margin-bottom: 1rem;
     height: 13rem !important;
+  }
+  .s-logos a img {
+    margin-bottom: 1.25rem;
   }
 }/*# sourceMappingURL=style.css.map */
