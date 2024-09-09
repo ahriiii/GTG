@@ -49,6 +49,18 @@ function backToTop() {
     document.documentElement.scrollTop = 0;
 }
 
+// Pop Message
+document.querySelectorAll('.col img').forEach(image => {
+    image.onclick = () => {
+        document.querySelector('.pop-up-wrap').style.display = 'block';
+        document.querySelector('.pop-up img').src = image.getAttribute('src');
+    }
+})
+
+document.querySelector('.pop-up span').onclick = () => {
+    document.querySelector('.pop-up-wrap').style.display = 'none';
+}
+
 // AOS
 AOS.init({
     duration: 1000
