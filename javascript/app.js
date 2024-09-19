@@ -65,3 +65,12 @@ document.querySelector('.pop-up span').onclick = () => {
 AOS.init({
     duration: 1000
 });
+
+// Google Tag
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'AW-16707932797');
